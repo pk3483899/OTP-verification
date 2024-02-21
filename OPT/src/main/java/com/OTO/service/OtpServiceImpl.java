@@ -32,7 +32,6 @@ public class OtpServiceImpl {
     }
 
     public void sendEmail(String to, String subject, String text){
-//        SimpleMailMessage message = new SimpleMailMessage();
         SimpleMailMessage message=new SimpleMailMessage();
         message.setFrom("abc@gmail.com");
         message.setTo(to);
